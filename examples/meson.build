@@ -56,6 +56,10 @@ compositors = {
 		'src': 'scene-graph.c',
 		'proto': ['xdg-shell'],
 	},
+	'explicit-sync': {
+		'src': 'explicit-sync.c',
+		'proto': ['xdg-shell'],
+	},
 }
 
 clients = {
